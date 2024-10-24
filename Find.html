@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <ul>
+            <li><a href="Find.html"><img src="search-icon.png" alt="Search"></a></li>
+            <li><a href="profile.html"><img src="r-icon.jpg" alt="R Icon"></a></li>
+            <li><a href="chat.html"><img src="chat-icon.png" alt="Chat"></a></li>
+            <li><a href="event.html"><img src="calendar-icon.png" alt="Calendar"></a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Search Alumni Section -->
+        <div class="search-section">
+            <h2>Search Alumni</h2>
+            <form>
+                <label for="batch">Batch</label>
+                <input type="text" id="batch" name="batch" placeholder="Ex: 2024">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <!-- Login/Register Section -->
+        <div class="auth-section">
+           <h3>Register / Login Here</h3>
+            <div class="auth-buttons">
+              <a href="login.html">  <button onclick="login()">Login</button></a>
+                <a href="signup.html"><button onclick="register()">Register</button></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
