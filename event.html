@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Form</title>
+    <link rel="stylesheet" href="event.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <ul>
+            <li><a href="Find.html"><img src="search-icon.png" alt="Search"></a></li>
+            <li><a href="profile.html"><img src="r-icon.jpg" alt="R Icon"></a></li>
+            <li><a href="chat.html"><img src="chat-icon.png" alt="Chat"></a></li>
+            <li><a href="event.html"><img src="calendar-icon.png" alt="Calendar"></a></li>
+            <a href="view_event.html">VIew Event</a>
+        </ul>
+    </div>
+    <div class="form-container">
+        <form>
+            <h1>Event Details</h1>
+
+            <div class="input-group">
+                <label for="event-name">Event Name</label>
+                <input type="text" id="event-name" placeholder="Enter event name">
+            </div>
+
+            <div class="input-group">
+                <label for="event-date">Event Date</label>
+                <input type="date" id="event-date">
+            </div>
+
+            <div class="input-group">
+                <label for="topics">Topics</label>
+                <input type="text" id="topics" placeholder="Enter event topics">
+            </div>
+
+            <div class="input-group">
+                <label for="form-link">Form Link</label>
+                <input type="url" id="form-link" placeholder="Enter form link">
+            </div>
+
+            <div class="button-group">
+                <button type="button" class="back-btn">BACK</button>
+                <button type="submit" class="submit-btn">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
